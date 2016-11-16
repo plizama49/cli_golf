@@ -1,0 +1,222 @@
+$ ls
+cans.txt  fridge/  pantry/
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen
+$ ls
+cans.txt  fridge/  pantry/
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen
+$ cd fridge/
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/fridge
+$ ls
+diapers.txt  freezer/  milk.txt  trashcan/
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/fridge
+$ cd..
+-bash: cd..: command not found
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/fridge
+$ cd ..
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen
+$ ls
+cans.txt  fridge/  pantry/
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen
+$ rm cans.txt 
+removed 'cans.txt'
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen
+$ cd fridge/
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/fridge
+$ ls
+diapers.txt  freezer/  milk.txt  trashcan/
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/fridge
+$ mv trashcan/ ~/Desktop/code/hwork/cli_golf-master/
+'trashcan/' -> '/Users/pglphotography/Desktop/code/hwork/cli_golf-master/trashcan'
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/fridge
+$ ls
+diapers.txt  freezer/  milk.txt
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/fridge
+$ cd ..
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen
+$ cd ..
+pglphotography ~/Desktop/code/hwork/cli_golf-master
+$ cd kitchen/
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen
+$ ls
+fridge/  pantry/
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen
+$ cd ..
+pglphotography ~/Desktop/code/hwork/cli_golf-master
+$ ls
+LICENSE.txt*  README.md*  kitchen/  kitchen.zip*  trashcan/
+pglphotography ~/Desktop/code/hwork/cli_golf-master
+$ mv trashcan/ ~/Desktop/code/hwork/cli_golf-master/
+gmv: 'trashcan/' and '/Users/pglphotography/Desktop/code/hwork/cli_golf-master/trashcan' are the same file
+pglphotography ~/Desktop/code/hwork/cli_golf-master
+$ ls
+LICENSE.txt*  README.md*  kitchen/  kitchen.zip*  trashcan/
+pglphotography ~/Desktop/code/hwork/cli_golf-master
+$ rm LICENSE.txt 
+removed 'LICENSE.txt'
+pglphotography ~/Desktop/code/hwork/cli_golf-master
+$ rm README.md 
+removed 'README.md'
+pglphotography ~/Desktop/code/hwork/cli_golf-master
+$ ls
+kitchen/  kitchen.zip*	trashcan/
+pglphotography ~/Desktop/code/hwork/cli_golf-master
+$ rm kitchen/
+grm: cannot remove 'kitchen/': Is a directory
+pglphotography ~/Desktop/code/hwork/cli_golf-master
+$ rm kitchen.zip 
+removed 'kitchen.zip'
+pglphotography ~/Desktop/code/hwork/cli_golf-master
+$ ls
+kitchen/  trashcan/
+pglphotography ~/Desktop/code/hwork/cli_golf-master
+$ cd kitchen/
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen
+$ ls
+fridge/  pantry/
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen
+$ mv fridge/ ~/Desktop/code/hwork/cli_golf-master/
+'fridge/' -> '/Users/pglphotography/Desktop/code/hwork/cli_golf-master/fridge'
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen
+$ mv pantry/ ~/Desktop/code/hwork/cli_golf-master/
+'pantry/' -> '/Users/pglphotography/Desktop/code/hwork/cli_golf-master/pantry'
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen
+$ ls
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen
+$ cd ..
+pglphotography ~/Desktop/code/hwork/cli_golf-master
+$ ls
+fridge/  kitchen/  pantry/  trashcan/
+pglphotography ~/Desktop/code/hwork/cli_golf-master
+$ mv fridge/ ~/Desktop/code/hwork/cli_golf-master/kitchen/
+'fridge/' -> '/Users/pglphotography/Desktop/code/hwork/cli_golf-master/kitchen/fridge'
+pglphotography ~/Desktop/code/hwork/cli_golf-master
+$ mv pantry/ ~/Desktop/code/hwork/cli_golf-master/kitchen/
+'pantry/' -> '/Users/pglphotography/Desktop/code/hwork/cli_golf-master/kitchen/pantry'
+pglphotography ~/Desktop/code/hwork/cli_golf-master
+$ mv trashcan/ ~/Desktop/code/hwork/cli_golf-master/kitchen/
+'trashcan/' -> '/Users/pglphotography/Desktop/code/hwork/cli_golf-master/kitchen/trashcan'
+pglphotography ~/Desktop/code/hwork/cli_golf-master
+$ ls
+kitchen/
+pglphotography ~/Desktop/code/hwork/cli_golf-master
+$ cd kitchen/ 
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen
+$ ls
+fridge/  pantry/  trashcan/
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen
+$ cd trashcan/
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/trashcan
+$ ls
+banana-peels.txt  chicken-bones.txt  egg-shells.txt  sink/
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/trashcan
+$ mv sink/ ~/Desktop/code/hwork/cli_golf-master/kitchen/
+'sink/' -> '/Users/pglphotography/Desktop/code/hwork/cli_golf-master/kitchen/sink'
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/trashcan
+$ cd ..
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen
+$ ls
+fridge/  pantry/  sink/  trashcan/
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen
+$ cd fridge
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/fridge
+$ ls
+diapers.txt  freezer/  milk.txt
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/fridge
+$ cd ..
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen
+$ cd pantry
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/pantry
+$ mv crisper-drawer/ ~/Desktop/code/hwork/cli_golf-master/kitchen/fridge/
+'crisper-drawer/' -> '/Users/pglphotography/Desktop/code/hwork/cli_golf-master/kitchen/fridge/crisper-drawer'
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/pantry
+$ ls
+cans.txt  cereal.txt
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/pantry
+$ cd ..
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen
+$ ls
+fridge/  pantry/  sink/  trashcan/
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen
+$ cd fridg
+-bash: cd: fridg: No such file or directory
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen
+$ cd fridge/
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/fridge
+$ ls
+crisper-drawer/  diapers.txt  freezer/	milk.txt
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/fridge
+$ cd crisper-drawer/
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/fridge/crisper-drawer
+$ ls
+lettuce.txt
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/fridge/crisper-drawer
+$ touch apples.txt
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/fridge/crisper-drawer
+$ ls
+apples.txt  lettuce.txt
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/fridge/crisper-drawer
+$ cd ..
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/fridge
+$ cd freezer/
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/fridge/freezer
+$ ls
+couch.txt  frozenpeas.txt  icecream.txt
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/fridge/freezer
+$ rm couch.txt 
+removed 'couch.txt'
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/fridge/freezer
+$ cd ..
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/fridge
+$ ls
+crisper-drawer/  diapers.txt  freezer/	milk.txt
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/fridge
+$ rm diapers.txt 
+removed 'diapers.txt'
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/fridge
+$ CD ..
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/fridge
+$ cd ..
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen
+$ cd pantry/
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/pantry
+$ ls
+cans.txt  cereal.txt
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/pantry
+$ cd ..
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen
+$ cd sink
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/sink
+$ ls
+clean-dishes.txt  delete-me.txt  dirty-dishes.txt
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/sink
+$ rm delete-me.txt 
+removed 'delete-me.txt'
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/sink
+$ cd ..
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen
+$ cd trashcan/
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/trashcan
+$ ls
+banana-peels.txt  chicken-bones.txt  egg-shells.txt
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/trashcan
+$ cd ..
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen
+$ cd sink/
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/sink
+$ ls
+clean-dishes.txt  dirty-dishes.txt
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/sink
+$ mkdir drying-rack
+gmkdir: created directory 'drying-rack'
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/sink
+$ mv clean-dishes.txt  ~/Desktop/code/hwork/cli_golf-master/kitchen/sink/drying-rack/
+'clean-dishes.txt' -> '/Users/pglphotography/Desktop/code/hwork/cli_golf-master/kitchen/sink/drying-rack/clean-dishes.txt'
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen/sink
+$ cd ~/Desktop/code/hwork/cli_golf-master/kitchen/
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen
+$ ls
+fridge/  pantry/  sink/  trashcan/
+pglphotography ~/Desktop/code/hwork/cli_golf-master/kitchen
+$
+
+
